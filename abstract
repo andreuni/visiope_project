@@ -1,0 +1,5 @@
+For this project I used pytorch-lightning  and built a dataset using two datasets for real images (CelebA, FFHQ) and 3 for the generated images (AttGan, StarGAN, StyleGAN).
+I used a simple cnn-model and two architecture ( ResNet, Xception) for this classification task.
+Each model was used for training and testing using the images tensors or the fingerprints ( power spectrum). 
+The simplce cnn-model was also used for training and testing images and fingerprints together.
+A second dataset, composed of real images from LSUN and generated ones from ProGAN, was used for the generalization of the model
